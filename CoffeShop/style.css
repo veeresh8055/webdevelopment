@@ -1,0 +1,226 @@
+*{
+   margin: o;
+   padding: 0;
+   box-sizing: border-box;
+   background-color: #231709;
+}
+.navbar{
+    position: sticky;
+    height: 65px;
+    background-color: #231709;
+     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+    z-index: 6;
+}
+.logo{
+    height: 65px;
+    width: 65px;
+    background-image: url(pngwing.com.png);
+    background-size: cover;   
+    box-shadow: white;
+    cursor: pointer;
+
+ }
+ .logo:hover{
+    filter: drop-shadow(1px 10px 15px rgba(250, 113,33,0.95));
+    border-radius: 20px ;
+ }
+.menu  ul li{
+    display: inline;
+    cursor: pointer;
+    margin: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+   background-color: transparent;
+}
+.menu ul li:hover{
+    border: 1.5px solid white;
+    padding: 10px;
+    border-radius: 15px;
+    transition: .3s ease-in;
+
+
+
+}
+.login{
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: 700;
+    font-family: 'monospaceCourier New', Courier,monospace ;
+    padding: 5px;
+    border: 1.5px solid whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login:hover{
+    padding: 10px;
+    border: 1.5px solid white;
+    border-radius: 20px;
+    font-size: 35px;
+    transition: .5s ease-in-out;
+
+}
+.signup{
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    border: 1.5px solid whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signup:hover{
+    padding: 10px;
+    border: 1.5px solid white;
+    border-radius: 20px;
+    font-size: 35px;
+    transition: .5s ease-in-out;
+}
+.body{
+    display: flex;
+
+}
+.h1{
+    font-size: 150px;
+    margin: 0px;
+    font-weight: 900;
+   font-family: gotham;
+    margin-left: 50px;
+   color: aliceblue;
+}
+.h2{
+    margin:0;
+    font-size: 60px;
+    font-weight: 300;
+    margin-left: 60px;
+   color: rgba(131, 65, 4, 0.914);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.order{
+    color: rgb(255, 255, 255);
+    padding:8px;
+    margin: 5px 0px 0px 65px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    border: 1.5px solid whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.order:hover{
+    padding: 15px;
+    border: 1.5px solid white;
+    border-radius: 20px;
+    font-size: 24px;
+    transition: .5s ease-in-out;
+
+}
+.paragraph{
+    z-index: 0;
+}
+.img1{  
+    height: 40rem;
+
+    padding:10px ;
+    width: 53rem;
+    background-image: url(hero.png);
+    background-size: 700px;
+    background-position: center;
+   background-repeat: no-repeat;
+   z-index: 4;
+}
+.divs{
+    height: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    
+}
+.div1{
+    height: 3px;
+    width: 50px;
+    background-color: aliceblue;    
+    margin-left: 3px;
+}
+.div2{
+    height: 3px;
+    width: 50px;
+    background-color: rgba(240, 248, 255, 0.345);   
+    margin-left: 3px;
+ 
+}
+.div3{
+    height: 3px;
+    width: 50px;
+    background-color: aliceblue;    
+    margin-left: 3px;
+
+}
+
+/**  PAGE2 **/
+.service h3{
+    margin-top: 100px;
+    font-size: 50px;
+    height: 30px;
+    font-family: monospace;
+    font-weight: 600;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.container{
+   height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    background-color: rgba(240, 248, 255, 0.125);
+   border-radius: 30px;  
+     
+    
+}
+.container1{
+    height: 20REM;
+    width: 30%;
+    background-size: cover;
+    margin: 20px;
+    background-color: rgb(32, 146, 246);
+    border: 1.5px solid black;
+    background-image: url(img2.avif);
+
+    border-radius: 10px;
+
+}
+.container2{
+    height: 20REM;
+    width: 30%;
+    background-size: cover;
+    margin: 10px;
+    background-color: aqua;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    background-image: url(img3.avif);
+
+    
+}
+.container3{
+    height: 20rem;
+    width: 30%;
+    background-size: cover;
+    margin: 10px;
+    background-color: bisque;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    background-image: url(img4.avif);
+}
+.name{
+    margin-top: 70%;
+}
