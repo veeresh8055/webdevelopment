@@ -1,0 +1,141 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+font-family: 'Courier New', Courier, monospace;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(250, 193, 251);
+}
+.main{
+    height: 90%;
+    width: 90%;
+
+    border-radius: 23px;
+    background-color: rgba(245, 245, 245, 0.558);
+    position: relative;
+    overflow-y: hidden;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(246, 249, 249, 0.21);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px ;
+}
+.navpart1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.nav h3{
+    font-size: 20px;
+    border: 2px solid black;
+    font-weight: 900;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+.nav i{
+    font-size: 20px;
+    border: 2px solid black;
+    font-weight: 900;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+.nav h1{
+    font-weight: 700;
+      font-size: 30px;
+      text-transform: uppercase;
+
+}
+.nav button{
+       padding: 7px 12px;
+       border-radius: 20px;
+      font-size: 16px;
+       border: 2px solid rgba(0, 0, 0, 0.715);
+       font-weight: 800;
+       cursor: pointer;
+    
+}
+.btn2{
+    border: none;
+    color: aliceblue;
+    background-color: orangered;
+}
+
+.main>h1{
+   
+ font-size: 150px;
+ text-transform: uppercase;
+ font-weight: 250;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ width: 100%;
+ text-align: center;
+
+}
+
+img{
+    height: 350px;
+    width: 300px;
+    border-radius: 18px;
+    object-position: center;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.img1{
+   transform: translate(-50%,-50%) rotate(-30deg);    
+}
+.img2{
+    transform: translate(-50%,-50%) rotate(-20deg);    
+ }
+ .img3{
+    transform: translate(-50%,-50%) rotate(-10deg);    
+ }
+
+ .btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;      
+}
+.social{
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    font-size: 25px;
+    cursor: pointer;
+}
+.arrow{
+    align-items: center;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border: 1.5px solid black;
+    border-radius: 50%;
+    bottom: -5%;
+    left: 48%;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+   position: absolute;    
+
+}
